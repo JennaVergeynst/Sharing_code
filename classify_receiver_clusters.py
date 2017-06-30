@@ -7,6 +7,7 @@ Created on Fri June 30 2017
 
 import pandas as pd
 
+
 def classify_receiver_clusters(fixed_tags, acc_goal, confidence_level, min_group_size=10):
     """
     All fixed positions are grouped per receiver cluster used for calculation of the position. 
